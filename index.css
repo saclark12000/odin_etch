@@ -1,0 +1,15 @@
+body {
+    margin:0px;
+    padding:0px;
+}
+#game-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vh;
+    height:100vh;
+}
+.cell {
+    flex: flex-grow 25%;
+    min-width: 25%;
+    min-height: 25%;
+}
